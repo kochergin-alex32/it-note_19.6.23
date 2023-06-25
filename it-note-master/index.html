@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tasker</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- <section class="nav">
+        <div class="container">
+            <form id="task-form" class="d-flex">
+                <input id="task-data" type="text" class="form-control me-1" placeholder="Введите название задачи">
+                <input type="submit" class="btn btn-violet" value="Добавить">
+            </form>
+        </div>
+    </section>
+    <section class="tasks">
+        <div class="container">
+            <h3 class="display-6">Задачи</h3>
+            <hr>
+            <ul id="tasks-wrapper" class="list-group list-group-flush">
+                 <li class="d-flex justify-content-between list-group-item rounded border-0 shadow p-3 mb-2 bg-body-tertiary">
+                    <span class="task-title fw-bold">An item</span> 
+                    <i class="bi bi-chevron-right"></i>
+                </li>
+                <li class="list-group-item rounded border-0 shadow p-3 mb-2 bg-body-tertiary fw-bold">A second item <i class="bi bi-chevron-right"></i>
+                </li>
+                <li class="list-group-item rounded border-0 shadow p-3 mb-2 bg-body-tertiary fw-bold">A third item <i class="bi bi-chevron-right"></i> </li>
+            </ul>
+        </div>
+    </section> -->
+
+    <!-- <section  class="login">
+        
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-12 logo">
+                         <i class="bi bi-chat-dots logo"></i>
+                </div>
+                 <div class="col-12 app-name"> it-note</div>
+                
+            </div>
+            <div class="row col-6 mx-auto">
+                <form class="form-login">
+                    <div class="mb-3">
+                      
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="введи-ка почту">
+                      
+                    </div>
+                    <div class="mb-3">
+                     
+                      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="введи-ка пароль">
+                    </div>
+                   
+                    <button type="submit" class=" w-100 btn ">войти</button>
+                    <button type="submit" class=" w-100 btn ">зарегаться</button>
+                  </form>
+            </div>
+        </div>
+    </section> -->
+   
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  
+
+    <!-- <script src="js/login1.js"></script> -->
+    <script src="js/login2.js"></script>
+    <script src="js/tasks.js"></script>
+   
+    <script src="js/task-wiew1.js"></script>
+    <script src="js/filter.js"></script>
+   
+    <script>
+         renderLoginPage()
+    </script>
+    <script>
+
+// Example starter JavaScript for disabling form submissions if there are invalid fields
+(() => {
+  'use strict'
+
+  // Fetch all the forms we want to apply custom Bootstrap validation styles to
+  const forms = document.querySelectorAll('.needs-validation')
+
+  // Loop over them and prevent submission
+  Array.from(forms).forEach(form => {
+    form.addEventListener('submit', event => {
+      if (!form.checkValidity()) {
+        event.preventDefault()
+        event.stopPropagation()
+      }
+
+      form.classList.add('was-validated')
+    }, false)
+  })
+})()
+
+    </script>
+</body>
+</html>

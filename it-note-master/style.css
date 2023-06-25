@@ -1,0 +1,194 @@
+body{
+   
+    height: 100vh;
+    background-image: linear-gradient(to top right, rgb(46,1,104),violet);
+}
+.tasks li i {
+    color: #712cf9;
+}
+
+
+.task:hover {
+    background-color: #eee !important;
+}
+.task .arrow-btn {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.task .arrow-btn:hover {
+    transform: scale(1.5) rotate(360deg);
+}
+
+.image-edit {
+    position: relative;
+   
+}
+.w-img{
+    /* border: 1px solid red; */
+    object-fit:contain;
+    max-height: 350px;
+    
+
+
+
+    
+
+}
+.image-edit label i {
+    position: absolute;
+    bottom:5px;
+    right:10px;
+    font-size: 22px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.image-edit label i:hover {
+    font-size: 24px;
+    color: white;
+}
+.container{
+    
+    background-color: white;
+    padding: 20px;
+}
+.btn-violet{
+    background-image: linear-gradient(to right, #6148c8, #be5bfb);
+    color: white;
+    padding: 0 30px;
+    letter-spacing: 0.06em;
+}
+.btn-violet:hover{
+    color: #ccc;
+}
+.arrow{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 5px;
+}
+#btn-back {
+    /* background-color: rgb(252, 249, 249);
+    border-radius: 10px;
+   width: 40px; */
+   margin-bottom: 5px;
+ 
+    font-size: 25px;
+    font-weight: bold;
+  
+    display:inline-block;
+
+}
+#btn-back > i{
+    transition: 0.2s;
+    color: black;
+}
+#btn-back:hover > i{
+   color: white;
+    font-size: 20px;
+ /* transform: scale(0.7); */
+    text-shadow: 0 0 5px black;
+}
+.logo  {
+    background-image: linear-gradient(to right, #6148c8, #be5bfb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 50px;
+}
+.app-name{
+    background-image: linear-gradient(to right, #6148c8, #be5bfb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    font-family: cursive;
+}
+.form-login > div input{
+    border-radius: 18px;
+}
+.form-login button{
+    border: 1px solid #999;
+    border-radius: 18px;
+    margin-bottom: 10px;
+}
+.form-login button:nth-of-type(1){
+    background-image: linear-gradient(to right, #6148c8, #be5bfb);
+    color: #fff;
+   
+}
+.form-login button:nth-of-type(1):hover{
+color: #bbb;
+}
+.login, .task-view{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+   
+}
+.login .container, .task-view .container{
+    border-radius: 5px;
+}
+.login-error{
+    
+    position: absolute;
+}
+
+
+.pass{
+    position: relative;
+}
+.icon-pass{
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.nav{
+    margin-top: 20px;
+}
+.nav .container{
+    border-radius: 5px 5px 0 0;
+}
+.tasks .container{
+    border-radius: 0 0 5px 5px; 
+}
+#delete-task{
+    margin-top: 10px;
+    
+}
+.form-register> .modal-body> div{
+    position: relative;
+}
+.form-register > div input{
+    border-radius: 18px;
+}
+.form-register button{
+    border: 1px solid #999;
+    border-radius: 18px;
+    margin-bottom: 10px;
+}
+.form-register button:nth-of-type(1){
+    background-image: linear-gradient(to right, #6148c8, #be5bfb);
+    color: #fff;
+   
+}
+.form-register button:nth-of-type(1):hover{
+color: #bbb;
+}
+.hide{
+    visibility: hidden;
+    position: absolute;
+    /* display: none; */
+   color:red;
+  
+   
+}
+/* .clos{
+
+overflow:visible;
+} */
